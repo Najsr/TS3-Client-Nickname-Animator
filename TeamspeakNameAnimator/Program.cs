@@ -13,7 +13,7 @@ namespace TeamspeakNameAnimator
         static Match match;
         static string nickname;
         static string current_nickname = string.Empty;
-        static int counting_index = 27;
+        static int counting_index = -1;
 
         static bool new_client = false;
         static string api_key = "";
